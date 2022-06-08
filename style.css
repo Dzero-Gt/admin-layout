@@ -1,0 +1,26 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 30px 1fr 5fr;
+}
+
+.searchbar {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  grid-area: 2 / 2/ 3 / 3;
+}
+
+.navbar {
+  grid-area: 1 / 1 / 4 / 2;
+}
+
+.main-content {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.search-right-side {
+}
